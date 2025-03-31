@@ -1,0 +1,10 @@
+diff --git a/issue_1/average_calculator.py b/issue_1/average_calculator.py
+index 35d6728..7642a6d 100644
+--- a/issue_1/average_calculator.py
++++ b/issue_1/average_calculator.py
+@@ -1,4 +1,4 @@
+-def calculate_average(numbers)
++def calculate_average(numbers):
+     if not numbers:
+         return None
+     
