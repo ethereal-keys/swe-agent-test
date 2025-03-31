@@ -1,0 +1,16 @@
+diff --git a/issue_2/__pycache__/sum_calculator.cpython-311.pyc b/issue_2/__pycache__/sum_calculator.cpython-311.pyc
+new file mode 100644
+index 0000000..f4ee721
+Binary files /dev/null and b/issue_2/__pycache__/sum_calculator.cpython-311.pyc differ
+diff --git a/issue_2/sum_calculator.py b/issue_2/sum_calculator.py
+index 8b09538..e021369 100644
+--- a/issue_2/sum_calculator.py
++++ b/issue_2/sum_calculator.py
+@@ -1,6 +1,6 @@
+ def calculate_sum(numbers):
+     total = 0
+-    for i in range(len(numbers) - 1):  # Possible off-by-one error
++    for i in range(len(numbers)):
+         total += numbers[i]
+     return total
+ 
