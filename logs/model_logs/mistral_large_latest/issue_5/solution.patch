@@ -1,0 +1,15 @@
+diff --git a/issue_5/reverse_string.py b/issue_5/reverse_string.py
+index 8aa477f..3d1012b 100644
+--- a/issue_5/reverse_string.py
++++ b/issue_5/reverse_string.py
+@@ -1,8 +1,5 @@
+-def reverse_string(s)
+-    reversed = ""
+-    for char in s:
+-        reversed = char + reversed
+-    return reversed
++def reverse_string(s):
++    return s[::-1]
+ 
+ # Test case
+ print(reverse_string("hello"))
